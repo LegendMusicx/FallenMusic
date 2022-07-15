@@ -8,7 +8,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 
 @Client.on_message(command("help") & filters.private & ~filters.group & ~filters.edited)
 async def help_cmd(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAx0CZIiVngABAoCAYqWU-JzBZtfz14vr_DfDkJyy7X8AAjYGAAIsk1lUo7RMhQfOm28eBA")
+    await message.reply_sticker("CAACAgQAAx0CYY7V0QABB7jfYtF-LL14LAeHq1WkR-eTk75Jr_oAAqAQAAJCWf0EBhe1IDtyxSAeBA")
     await message.reply_photo(f"{START_IMG}", caption=f"""
 ❄ **ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ɪɴ {BOT_NAME} :**
 
@@ -34,10 +34,10 @@ async def help_cmd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🦋 sᴜᴩᴩᴏʀᴛ 🦋", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "❄ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ❄", url="https://github.com/AnonymousR1025/FallenMusic"
+                        "❄ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ❄", url="https://t.me/Legend_Chats"
                     )
                 ],
                 [
